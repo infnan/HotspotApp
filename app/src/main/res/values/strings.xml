@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">热点开关</string>
+    <string name="accessibility_label">热点开关辅助服务</string>
+    <string name="accessibility_description">仅在触发开启热点时，读取系统设置页面并点击热点开关，确认开启后返回桌面。关闭热点使用直接接口。不会自动点击辅助功能授权。</string>
+    <string name="accessibility_needed">请在辅助功能中启用“热点开关辅助服务”，然后再次触发。若刚启用，请稍候服务连接。</string>
+    <string name="unlock_needed">请点亮屏幕并解锁手机后再开启热点</string>
+    <string name="hotspot_starting">正在开启便携式WLAN热点</string>
+    <string name="hotspot_stopping">正在关闭便携式WLAN热点</string>
+    <string name="hotspot_on">便携式WLAN热点已开启</string>
+    <string name="hotspot_off">便携式WLAN热点已关闭</string>
+    <string name="hotspot_busy">热点正在切换，请稍候再试</string>
+    <string name="permission_needed">请允许修改系统设置，授权后再次触发热点开关</string>
+    <string name="permission_unavailable">无法打开授权页，请在系统设置中允许本应用修改系统设置</string>
+    <string name="unsupported_android">此应用仅支持安卓7.0和7.1</string>
+    <string name="unsupported_device">该系统不支持应用直接切换热点</string>
+    <string name="permission_denied">系统拒绝切换热点，请检查修改系统设置权限或系统限制</string>
+    <string name="user_query_denied">系统热点调用触发了用户信息查询权限限制（MANAGE_USERS / CREATE_USERS）。修改系统设置授权无法解决此错误。请打开系统热点设置手动切换，并保留以下错误信息。</string>
+    <string name="error_settings">打开热点设置</string>
+    <string name="hotspot_settings_unavailable">无法打开系统设置，请从手机设置中手动进入热点页面</string>
+    <string name="error_title">热点操作失败 · 调试信息</string>
+    <string name="error_copy">复制错误信息</string>
+    <string name="error_close">关闭</string>
+    <string name="error_copied">完整错误信息已复制</string>
+    <string name="error_no_exception">本次操作未返回异常，以上为失败或超时结果。</string>
+    <string name="toggle_failed">热点切换失败，请检查系统热点设置</string>
+    <string name="toggle_timeout">热点切换超时，请检查系统热点状态</string>
+    <string name="tethering_failed">系统网络共享启动失败，请检查系统热点设置或运营商限制</string>
+    <string name="tethering_timeout">未能确认网络共享就绪，已尝试关闭热点，请检查系统热点设置</string>
+</resources>

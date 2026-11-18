@@ -1,0 +1,27 @@
+plugins {
+    id 'com.android.application'
+}
+
+android {
+    namespace 'com.example.hotspottoggle'
+    compileSdk 35
+
+    defaultConfig {
+        applicationId 'com.example.hotspottoggle'
+        minSdk 24
+        targetSdk 25
+        versionCode 6
+        versionName '1.5'
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+        }
+    }
+}
